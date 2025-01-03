@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RenoiseScriptingTool doc_version="0">
   <ApiVersion>6</ApiVersion>
-  <Id>com.renoise.HelloWorld</Id>
+  <Id>com.timesig.xrnx</Id>
   <Version>1.0</Version>
   <Author>mat mat@stingley.org</Author>
   <Name>tool1</Name>
   <Category>Sound design</Category>
   <Description>
-  Trust me its good  
+  Trust me its good.
   </Description>
   <Homepage>https://stingley.org/</Homepage>
-  <Icon>icon.png</Icon>
   <Platform>Windows, Mac, Linux</Platform>
 </RenoiseScriptingTool>
