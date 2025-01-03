@@ -2,13 +2,14 @@
 <RenoiseScriptingTool doc_version="0">
   <ApiVersion>6</ApiVersion>
   <Id>com.timesig.xrnx</Id>
-  <Version>1.0</Version>
+  <Version>1.1</Version>
   <Author>mat mat@stingley.org</Author>
   <Name>tool1</Name>
-  <Category>Sound design</Category>
+  <Category>Timing</Category>
   <Description>
-  Trust me its good.
+  Quick and easy way to change the time signature of a pattern in Renoise.
   </Description>
   <Homepage>https://stingley.org/</Homepage>
+  <icon>icon.png</icon>
   <Platform>Windows, Mac, Linux</Platform>
 </RenoiseScriptingTool>

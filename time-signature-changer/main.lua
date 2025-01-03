@@ -1,7 +1,3 @@
--- main.lua
--- Simple Renoise plugin to change time signature via pattern length
-
--- Function to change the time signature with error handling
 local function change_time_signature(beats_per_measure, beat_unit)
     local song = renoise.song()
     local lines_per_beat = song.transport.lpb
@@ -12,13 +8,11 @@ local function change_time_signature(beats_per_measure, beat_unit)
         return
     end
 
-    -- Manually update the time signature by setting the number of lines for each pattern
     for _, pattern in ipairs(song.patterns) do
         pattern.number_of_lines = new_pattern_length
     end
 end
 
--- Function to show a dialog for custom time signature with improved validation
 local function show_time_signature_dialog()
     local vb = renoise.ViewBuilder()
     local dialog_content = vb:column {
@@ -66,8 +60,7 @@ local function show_time_signature_dialog()
     renoise.app():show_custom_dialog("Time Signature", dialog_content)
 end
 
--- Add menu entry to Tools menu
 renoise.tool():add_menu_entry {
-    name = "Main Menu:Tools:Change Time Signature...",
+    name = "Main Menu:Tools:catbot Time Signature Changer...",
     invoke = show_time_signature_dialog
 }
