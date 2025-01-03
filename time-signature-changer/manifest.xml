@@ -2,7 +2,7 @@
 <RenoiseScriptingTool doc_version="0">
   <ApiVersion>6</ApiVersion>
   <Id>com.timesig.xrnx</Id>
-  <Version>1.1</Version>
+  <Version>1.2</Version>
   <Author>mat mat@stingley.org</Author>
   <Name>tool1</Name>
   <Category>Timing</Category>

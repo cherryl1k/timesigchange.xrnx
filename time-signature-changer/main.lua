@@ -8,9 +8,8 @@ local function change_time_signature(beats_per_measure, beat_unit)
         return
     end
 
-    for _, pattern in ipairs(song.patterns) do
-        pattern.number_of_lines = new_pattern_length
-    end
+    local selected_pattern_index = song.selected_pattern_index
+    song.patterns[selected_pattern_index].number_of_lines = new_pattern_length
 end
 
 local function show_time_signature_dialog()
