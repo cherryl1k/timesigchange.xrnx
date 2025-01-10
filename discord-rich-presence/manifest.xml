@@ -1,13 +1,13 @@
-<?xml version="1.3" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <RenoiseScriptingTool doc_version="0">
   <ApiVersion>6</ApiVersion>
-  <Id>com.timesig.xrnx</Id>
+  <Id>com.rpc.xrnx</Id>
   <Version>1.2</Version>
   <Author>mat mat@stingley.org</Author>
-  <Name>tool1</Name>
-  <Category>Timing</Category>
+  <Name>DiscordRpc</Name>
+  <Category>Discord</Category>
   <Description>
-  Quick and easy way to change the time signature of a pattern in Renoise.
+  Discord Rich Presence for Renoise
   </Description>
   <Homepage>https://stingley.org/</Homepage>
   <icon>icon.png</icon>
