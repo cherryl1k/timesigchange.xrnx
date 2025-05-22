@@ -1,15 +1,14 @@
-<?xml version="1.3" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <RenoiseScriptingTool doc_version="0">
   <ApiVersion>6</ApiVersion>
-  <Id>com.timesig.xrnx</Id>
-  <Version>1.2</Version>
-  <Author>mat mat@stingley.org</Author>
-  <Name>tool1</Name>
+  <Id>com.timesigchange.xrnx</Id>
+  <Version>1.4</Version>
+  <Name>TimeSignatureChanger</Name>
+  <Author>cherry</Author>
   <Category>Timing</Category>
   <Description>
   Quick and easy way to change the time signature of a pattern in Renoise.
   </Description>
-  <Homepage>https://stingley.org/</Homepage>
-  <icon>icon.png</icon>
+  <Homepage>https://github.com/chrymusic/renoise-plugins</Homepage>
   <Platform>Windows, Mac, Linux</Platform>
 </RenoiseScriptingTool>

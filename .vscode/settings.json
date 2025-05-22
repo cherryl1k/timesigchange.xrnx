@@ -1,4 +1,7 @@
 {
     "Lua.workspace.library": ["definitions"],
-    "Lua.runtime.plugin": "ext/renoise-defs/plugin.lua"
+    "Lua.runtime.plugin": "ext/renoise-defs/plugin.lua",
+    "Lua.diagnostics.globals": [
+        "renoise"
+    ],
 }

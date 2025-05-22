@@ -48,6 +48,6 @@ local function show_time_signature_dialog()
 end
 
 renoise.tool():add_menu_entry {
-    name = "Main Menu:Tools:catbot Time Signature Changer...",
+    name = "Main Menu:Tools:Time Signature Changer...",
     invoke = show_time_signature_dialog
 }
