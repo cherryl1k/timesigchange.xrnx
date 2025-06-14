@@ -9,6 +9,6 @@
   <Description>
   Quick and easy way to change the time signature of a pattern in Renoise.
   </Description>
-  <Homepage>https://github.com/chrymusic/renoise-plugins</Homepage>
+  <Homepage>https://github.com/cherryl1k/timesigchange.xrnx</Homepage>
   <Platform>Windows, Mac, Linux</Platform>
 </RenoiseScriptingTool>
