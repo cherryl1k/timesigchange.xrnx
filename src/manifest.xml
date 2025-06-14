@@ -2,7 +2,7 @@
 <RenoiseScriptingTool doc_version="0">
   <ApiVersion>6</ApiVersion>
   <Id>com.timesigchange.xrnx</Id>
-  <Version>1.5  </Version>
+  <Version>1.5</Version>
   <Name>TimeSignatureChanger</Name>
   <Author>cherry</Author>
   <Category>Timing</Category>
