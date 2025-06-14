@@ -1,6 +1,6 @@
 @echo off
 set directory=src
-set output=tool
+set output=com.timesigchange.xrnx
 
 :: Compress src into tool.zip
 tar -a -c -f %output%.zip %directory%
