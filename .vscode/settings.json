@@ -1,7 +1,8 @@
 {
-    "Lua.workspace.library": ["definitions"],
+    "Lua.workspace.library": ["ext/renoise-defs/"],
     "Lua.runtime.plugin": "ext/renoise-defs/plugin.lua",
     "Lua.diagnostics.globals": [
         "renoise"
     ],
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
 }
